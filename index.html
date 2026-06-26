@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hogar de Estudio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color:#5f86b3;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contenedor{
+    width:90%;
+    max-width:1200px;
+    background:#f0f0f0;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+header{
+    background:#d9d9d9;
+    padding:25px;
+    text-align:center;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+.menu-superior{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+    flex-wrap:wrap;
+}
+
+.menu-superior a{
+    text-decoration:none;
+    color:black;
+    background:#9be7e7;
+    padding:15px 25px;
+    border-radius:15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.menu-superior a:hover{
+    transform:scale(1.05);
+}
+
+.contenido{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    padding:40px;
+}
+
+.boton{
+    text-decoration:none;
+    padding:25px;
+    border-radius:20px;
+    font-size:1.5rem;
+    font-weight:bold;
+    text-align:center;
+    transition:0.3s;
+}
+
+.boton:hover{
+    transform:scale(1.05);
+}
+
+.horarios{
+    background:#5dd84d;
+    color:white;
+}
+
+.resumenes{
+    background:#ffc107;
+    color:#1f3cff;
+}
+
+.reto{
+    background:#8b4ddb;
+    color:white;
+}
+
+.inferior{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px;
+    flex-wrap:wrap;
+}
+
+.logros{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.mascota{
+    font-size:80px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#d9d9d9;
+}
+
+</style>
+</head>
+<body>
+
+<div class="contenedor">
+
+<header>
+    <h1>📚 Hogar de Estudio</h1>
+</header>
+
+<div class="menu-superior">
+
+    <a href="https://www.google.com/maps/search/bibliotecas/" target="_blank">
+        ¿Dónde estudiar?
+    </a>
+
+    <a href="https://pomofocus.io/" target="_blank">
+        tiempo de estudio!    </a>
+
+</div>
+
+<div class="contenido">
+
+    <a class="boton horarios"
+       href="https://calendar.google.com/"
+       target="_blank">
+       ⏰ Tus Horarios
+    </a>
+
+    <a class="boton resumenes"
+       href="https://chatgpt.com/"
+       target="_blank">
+       📝 Resúmenes Inteligentes
+    </a>
+
+    <a class="boton reto"
+       href="retoestudio.html"
+       target="_blank">
+       🎯 Reto de Estudio
+    </a>
+
+</div>
+
+<div class="inferior">
+
+    <div class="logros">
+        <h2>🏆 Tus Logros</h2>
+        <p>¡Sigue estudiando!</p>
+    </div>
+
+    <div class="mascota">
+        🎓
+    </div>
+
+</div>
+
+<footer>
+    Hogar de Estudio © 2026
+</footer>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#5f86b3;
+    font-family:Arial, sans-serif;
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contenedor{
+    width:90%;
+    max-width:1200px;
+    background:#f3f3f3;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+header{
+    background:#d9d9d9;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px;
+}
+
+header h1{
+    font-size:2.5rem;
+}
+
+.libro{
+    width:120px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+
+    padding:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    background:#a8ecec;
+
+    padding:15px 25px;
+    border-radius:10px;
+
+    font-size:1.2rem;
+}
+
+.principal{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+
+    padding:40px;
+}
+
+.principal a{
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.horario{
+    background:#63df47;
+    color:white;
+
+    padding:20px 40px;
+    border-radius:20px;
+    font-size:2rem;
+}
+
+.resumen{
+    background:#f6b300;
+    color:#1824ff;
+
+    padding:20px 30px;
+    border-radius:20px;
+}
+
+.reto{
+    background:#8a45d4;
+    color:white;
+
+    padding:20px 30px;
+    border-radius:20px;
+}
+
+footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+
+    padding:30px;
+}
+
+.logros img{
+    width:100px;
+}
+
+.logros p{
+    margin-top:10px;
+}
+
+.mascota{
+    width:100px;
+}
